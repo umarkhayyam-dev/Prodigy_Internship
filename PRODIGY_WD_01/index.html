@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Watches Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="watches-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#watches">Watches</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1 class="section-title">HOME</h1>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="property\backgroung\bg1.jpg" alt="ROLEX">
+                    <img src="property\Watches\watch2.jpg" alt="Patek Philippe">
+                    <img src="property\backgroung\bg3.jpg" alt="Audemars Piguet">
+                    <img src="property\backgroung\bg4.webp" alt="Vacheron Constantin">
+                    <img src="property\backgroung\bg5.jpg" alt="Omega">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </section>
+
+        <section id="watches">
+            <h1 class="section-title">WATCH</h1>
+            <div class="watches-grid">
+                <div class="watch-block">
+                    <h2>ROLEX</h2>
+                    <img src="property\Watches\watch1.jpg" alt="ROLEX" class="game-image" data-img-src="watch1.jpg">
+                    <p>Established in 1905, Rolex is a Swiss luxury watchmaker celebrated for its iconic models like the Submariner, Datejust, and Daytona. Known for precision and durability, Rolex watches are often considered status symbols</p>
+                </div>
+                <div class="watch-block">
+                    <h2>Patek philippe</h2>
+                    <img src="property\Watches\watch2.jpg" alt="Patek philippe" class="game-image" data-img-src="watch2.jpg">
+                    <p>Founded in 1839, Patek Philippe is renowned for its intricate complications and timeless designs. Models such as the Nautilus and Calatrava exemplify the brand's commitment to horological excellence.</p>
+                </div>
+                <div class="watch-block">
+                    <h2>Audemars Piguet</h2>
+                    <img src="property\Watches\watch 3.jpeg" alt="Audemars Piguet" class="game-image" data-img-src="watch 3.jpeg">
+                    <p>Established in 1875, Audemars Piguet gained fame with the introduction of the Royal Oak in 1972, a luxury sports watch crafted in stainless steel. The brand is known for its innovative designs and high-quality craftsmanship.</p>
+                </div>
+                <div class="watch-block">
+                    <h2>Vacheron Constantin</h2>
+                    <img src="property\Watches\watch4.webp" alt="Vacheron Constantin" class="game-image" data-img-src="watch4.webp">
+                    <p>Founded in 1755, Vacheron Constantin is one of the oldest watch manufacturers, known for its intricate complications and artistic designs. The brand's Patrimony and Overseas collections are particularly esteemed.</p>
+                </div>
+                <div class="watch-block">
+                    <h2>Omega</h2>
+                    <img src="property\Watches\watch 5.jpeg" alt="Omega" class="game-image" data-img-src="watch 5.jpeg">
+                    <p>Established in 1848, Omega is renowned for its precision and has been the official timekeeper of the Olympic Games multiple times. Iconic models include the Speedmaster, known as the "Moonwatch," and the Seamaster.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-title">CONTACT</h1>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/umarkhayyam-i-m-436550350/" target="_blank">
+                    <img src="property\linkedgit\linkedinicon.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="https://github.com/umarkhayyam-dev" target="_blank">
+                    <img src="property\linkedgit\githubicon.png" alt="GitHub" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div id="image-popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
